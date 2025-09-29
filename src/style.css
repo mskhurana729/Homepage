@@ -16,3 +16,34 @@
   font-weight: normal;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.headerImageContainer {
+  position: relative;
+  padding: 1rem;
+}
+.overlayImageText {
+  position: absolute;
+  bottom: 12px;
+  left: 30px;
+  font-family: "playfair_displayregular";
+  font-size: 4rem;
+  color: white;
+  font-weight: 100;
+  line-height: 1.2;
+}
+.headerImage {
+  width: 80vw;
+  height: auto;
+}
