@@ -21,25 +21,42 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  padding: 1rem;
+body p {
+  color: rgb(99, 98, 98);
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-family: "robotoregular";
 }
+/* now we want to give a shadow to the header image
+*/
+
 header {
+  border: 1px solid green;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 1rem; */
 }
 .headerImageContainer {
   position: relative;
-  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: conic-gradient(
+    rgb(0, 153, 255) 70deg,
+    white 70deg,
+    white 230deg,
+    rgb(0, 153, 255) 230deg,
+    rgb(0, 153, 255) 360deg
+  );
 }
 .overlayImageText {
   position: absolute;
-  bottom: 12px;
-  left: 30px;
+  bottom: 1rem;
+  left: 4rem;
   font-family: "playfair_displayregular";
   font-size: 4rem;
   color: white;
@@ -55,7 +72,16 @@ header {
 h2 {
   font-family: "playfair_displayregular";
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 1rem;
+}
+.aboutMeContainer {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.social .socialMediaImage {
 }
