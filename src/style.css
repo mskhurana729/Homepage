@@ -36,9 +36,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 6rem;
 }
 .headerImageContainer {
-  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -52,10 +52,13 @@ header {
     rgb(0, 153, 255) 360deg
   );
 }
+.imageContainer {
+  position: relative;
+}
 .overlayImageText {
   position: absolute;
-  bottom: 1rem;
-  left: 4rem;
+  bottom: 0.5rem;
+  left: 1rem;
   font-family: "playfair_displayregular";
   font-size: 4rem;
   color: white;
@@ -90,5 +93,91 @@ h2 {
 .socialMediaImage {
   width: 3rem;
 
+  height: auto;
+}
+/* main */
+
+main {
+  padding: 2rem;
+  margin-bottom: 6rem;
+}
+
+.mainHeading {
+  margin-bottom: 2rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.projectContainer {
+  width: 100%;
+}
+.projectScreenshot {
+  width: 100%;
+}
+.projectNameAndLinksAndDescriptionContainer {
+  padding: 1rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.projectNameAndLinksContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  align-items: center;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: "playfair_displayregular";
+}
+.projectLinksContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.projectLinksImage {
+  width: 1.8rem;
+  height: auto;
+}
+.projectDescription {
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  font-size: 1.2rem;
+}
+.footerContentContainer {
+  background: rgb(0, 153, 255);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  padding-bottom: 4rem;
+}
+.footerHeading {
+  margin-top: 1rem;
+}
+footer p {
+  overflow-wrap: break-word;
+  color: white;
+  font-size: 1.5rem;
+}
+.socialMediaLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.footerSocialMediaImage {
+  width: 3rem;
+}
+.footerImage {
+  width: 100%;
   height: auto;
 }
