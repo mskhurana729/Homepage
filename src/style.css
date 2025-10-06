@@ -181,5 +181,11 @@ footer p {
   width: 100%;
   height: auto;
 }
-@media screen and (min-width>800px) {
+@media screen and (width>800px) {
+  .socialMediaImage {
+    display: none;
+  }
+  .headerImage {
+    width: 40vw;
+  }
 }
