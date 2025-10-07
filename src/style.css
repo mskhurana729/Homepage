@@ -188,4 +188,9 @@ footer p {
   .headerImage {
     width: 40vw;
   }
+  .headerImageContainer {
+    display: block;
+    padding-left: 2rem;
+    padding-top: 3rem;
+  }
 }
