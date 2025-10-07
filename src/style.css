@@ -193,4 +193,11 @@ footer p {
     padding-left: 2rem;
     padding-top: 3rem;
   }
+  .overlayImageText {
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    left: auto;
+    bottom: auto;
+  }
 }
