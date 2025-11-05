@@ -251,6 +251,15 @@ footer p {
     padding-bottom: 5rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
   }
+  main {
+    padding: 0;
+    padding-bottom: 8rem;
+  }
+  .mainHeading {
+    text-align: left;
+    width: 80vw;
+    margin: 0 10vw 2rem 10vw;
+  }
   .projects-container {
     display: grid;
     width: 80vw;
