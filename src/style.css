@@ -266,4 +266,17 @@ footer p {
     margin-left: 10vw;
     grid-template-columns: 1fr 1fr;
   }
+  footer {
+    display: flex;
+    padding: 5vw;
+    border: 1px solid black;
+    background: rgb(0, 153, 255);
+  }
+  .footerContentContainer {
+    width: 60vw;
+  }
+  .footerImage {
+    width: 30vw;
+    height: auto;
+  }
 }
