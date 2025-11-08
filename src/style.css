@@ -269,7 +269,6 @@ footer p {
   footer {
     display: flex;
     padding: 5vw;
-    border: 1px solid black;
     background: rgb(0, 153, 255);
   }
   .footerContentContainer {
@@ -277,6 +276,15 @@ footer p {
   }
   .footerImage {
     width: 30vw;
-    height: auto;
+    height: 50vw;
+    object-fit: cover;
+    margin-top: 2rem;
+  }
+  .socialMediaLinks {
+    justify-content: left;
+  }
+  .footerHeading {
+    text-align: left;
+    margin-top: 2rem;
   }
 }
