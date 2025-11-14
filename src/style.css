@@ -301,12 +301,10 @@ footer p {
       rgb(0, 153, 255) 260deg,
       rgb(0, 153, 255) 360deg
     );
-    border: 1px solid red;
     padding: 4rem;
   }
   .headerImageContainer {
     width: 35vw;
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     background: none;
